@@ -1,0 +1,100 @@
+{
+  "project_info": {
+    "project_number": "164465992710",
+    "project_id": "t2t-dev-19782",
+    "storage_bucket": "t2t-dev-19782.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164465992710:android:99e50aacb5b7a4cb584f87",
+        "android_client_info": {
+          "package_name": "in.easycloud.t2t.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164465992710-ifo89odc7hoemen9hfk8981qgjpm4pv2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.easycloud.t2t.dev",
+            "certificate_hash": "14230e4ec942b2f2082e7a099b6cb92363f2c945"
+          }
+        },
+        {
+          "client_id": "164465992710-tr7b538et2cui7094k01qshkpk14i9f9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.easycloud.t2t.dev",
+            "certificate_hash": "1f5c45a36d5062fbb3c6525509205eb769ca09b8"
+          }
+        },
+        {
+          "client_id": "164465992710-k0m9fag3mh3kn7hkl6edb8htaomf3beb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOhO5Vx0l66ecBxn_NCZdHMscr_u95vds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164465992710-k0m9fag3mh3kn7hkl6edb8htaomf3beb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164465992710:android:183f5e4f50cb699e584f87",
+        "android_client_info": {
+          "package_name": "in.easycloud.t2t.rc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164465992710-54qeeabq02tk3ce7rr3jv8l1mdukh81c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.easycloud.t2t.rc",
+            "certificate_hash": "1f5c45a36d5062fbb3c6525509205eb769ca09b8"
+          }
+        },
+        {
+          "client_id": "164465992710-pld50ibpvq6drcfh0nd1uod2rac50b66.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.easycloud.t2t.rc",
+            "certificate_hash": "14230e4ec942b2f2082e7a099b6cb92363f2c945"
+          }
+        },
+        {
+          "client_id": "164465992710-k0m9fag3mh3kn7hkl6edb8htaomf3beb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOhO5Vx0l66ecBxn_NCZdHMscr_u95vds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164465992710-k0m9fag3mh3kn7hkl6edb8htaomf3beb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

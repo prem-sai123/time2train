@@ -1,0 +1,2 @@
+json_key_file(ENV["PLAYSTORE_JSON_FILE"])
+package_name("in.easycloud.t2t")

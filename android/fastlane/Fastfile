@@ -1,0 +1,28 @@
+default_platform(:android)
+
+platform :android do
+  desc "Runs all the tests"
+  lane :test do
+    gradle(task: "test")
+  end
+
+  desc "Deploy a new RC version to the Google Play"
+  lane :internal do
+    sh("cd", "..")
+    sh("fvm", "flutter", "clean")
+    sh("fvm", "flutter", "pub", "get")
+    sh("fvm", "flutter", "build", "appbundle", "--release", "--flavor", "staging")
+
+    upload_to_play_store_internal_app_sharing(aab: "../build/app/outputs/bundle/stagingRelease/app-staging-release.aab")
+  end
+
+  desc "Deploy a new version to the Google Play"
+  lane :deploy do
+    sh("cd", "..")
+    sh("fvm", "flutter", "clean")
+    sh("fvm", "flutter", "pub", "get")
+    sh("fvm", "flutter", "build", "appbundle", "--release", "--flavor", "prod")
+
+    upload_to_play_store(aab: "../build/app/outputs/bundle/prodRelease/app-prod-release.aab", rollout:"1")
+  end
+end
